@@ -21,7 +21,9 @@
     "@prisma/client": "^5.4.2",
     "bcryptjs": "^2.4.3",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "zod": "^3.22.4",
+    "zod-validation-error": "^2.0.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
