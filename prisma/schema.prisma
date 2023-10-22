@@ -11,16 +11,16 @@ datasource db {
 }
 
 model User {
-  id       String    @id @default(uuid())
-  name     String
-  email    String    @unique
-  password String
-  quesions Quesion[]
+  id        String     @id @default(uuid())
+  name      String
+  email     String     @unique
+  password  String
+  questions Question[]
 
   @@map("users")
 }
 
-model Quesion {
+model Question {
   id        String    @id @default(uuid())
   title     String
   slug      String    @unique
